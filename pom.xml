@@ -9,6 +9,7 @@
         <module>dynamic-programming</module>
       <module>bibary-search</module>
         <module>recursion</module>
+      <module>jdk</module>
     </modules>
     <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
