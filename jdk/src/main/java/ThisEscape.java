@@ -5,7 +5,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.function.Consumer;
 
 public class ThisEscape {
-    private int a = 10;
+    protected int a = 0;
 
     public ThisEscape(List source){
         source.add(new Consumer() {
@@ -17,6 +17,7 @@ public class ThisEscape {
 
         });
 
+        age();//子类this溢出
         try {
             Thread.sleep(10);
         } catch (InterruptedException e) {
@@ -26,6 +27,9 @@ public class ThisEscape {
     }
 
 
+    public void age(){
+        System.out.println("age: ");
+    }
     public static void main(String[] args) throws InterruptedException {
         List<Consumer> source = new ArrayList<>(100);
 
