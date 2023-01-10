@@ -11,7 +11,7 @@ public class GenBracket {
             return cache[n];
         }
         ArrayList<String> ans = new ArrayList<>();
-        if (n == 0){
+        if (n == 0) {
             ans.add("");
         } else {
             for (int i = 0; i < n; i++) {
