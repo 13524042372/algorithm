@@ -1,2 +1,10 @@
-package org;public class PalindromicString {
+package org;
+
+/**
+ * 最长回文子串
+ *
+ */
+public class PalindromicString {
+
+
 }
