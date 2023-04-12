@@ -12,6 +12,9 @@
         <module>dp</module>
       <module>leetcode</module>
       <module>Array</module>
+        <module>linked</module>
+        <module>jdkbase</module>
+        <module>backtrack</module>
     </modules>
     <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
