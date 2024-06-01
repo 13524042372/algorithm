@@ -58,7 +58,7 @@ public class MergeTwoLists {
         p.next = p1 != null? p1 : p2;
         return ans.next;
     }
-
+/*
     public static void main(String[] args) {
         ListNode l1 = new ListNode(-1);
         ListNode s = l1;
@@ -81,5 +81,5 @@ public class MergeTwoLists {
             System.out.println(listNode.val);
             listNode = listNode.next;
         }
-    }
+    }*/
 }
