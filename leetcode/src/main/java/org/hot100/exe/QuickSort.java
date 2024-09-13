@@ -17,7 +17,6 @@ public class QuickSort {
 
     }
     public int partition(int[] arr, int start,int end){
-
         int p = arr[start];
         int left = start + 1;
         int right = end;

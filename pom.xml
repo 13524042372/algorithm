@@ -17,6 +17,7 @@
         <module>backtrack</module>
         <module>binaryTree</module>
       <module>commen</module>
+        <module>sort</module>
     </modules>
     <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
